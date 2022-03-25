@@ -1,0 +1,32 @@
+.infoContainer {
+  display: grid;
+  justify-content: center;
+  align-content: start;
+
+  .title {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    width: 438px;
+    height: 50px;
+
+    h5 {
+      font-size: 14px;
+      font-weight: bold;
+      margin: 0;
+
+    }
+
+    button {
+      width: 116.67px;
+      height: 27.12px;
+      background-color: #4B51EF;
+      border: none;
+      color: white;
+      border-radius: 5px;
+      margin-left: 98px;
+
+      cursor: pointer;
+    }
+  }
+}

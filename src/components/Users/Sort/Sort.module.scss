@@ -1,0 +1,32 @@
+.sortContainer {
+  background-color: #BDBDBD;
+  width: 152px;
+  height: 1028px;
+  display: grid;
+  justify-items: center;
+
+
+  .sort {
+    margin-top: 20px;
+    height: 100%;
+    width: 80%;
+
+    p {
+      margin-bottom: 10px;
+      font-size: 12px;
+    }
+
+
+    button {
+      border: none;
+      border-radius: 5px;
+      height: 24px;
+      font-size: 12px;
+      color: white;
+      background-color: #4B51EF;
+      padding: 0 15px 0 15px;
+      cursor: pointer;
+      margin-bottom: 10px;
+    }
+  }
+}

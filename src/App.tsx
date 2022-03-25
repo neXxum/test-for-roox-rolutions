@@ -1,26 +1,19 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import {BrowserRouter} from "react-router-dom";
+import store from "./redux/store";
+import {Provider} from "react-redux";
+import UsersContainer from "./components/Users/UsersContainer";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+type PropsType = {}
+
+const App: React.FC<PropsType> = () => {
+    return (
+        <BrowserRouter>
+            <Provider store={store}>
+                <UsersContainer/>
+            </Provider>
+        </BrowserRouter>
+    );
 }
 
 export default App;
