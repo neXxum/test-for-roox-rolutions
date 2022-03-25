@@ -25,10 +25,11 @@ const UsersContainer: React.FC<PropsType> = ({users, getUsers, setSortUsers, use
                 <>
                     {users.length < 1 && <div className={style.users}><Preloader/></div>}
                     <Routes>
-                        <Route path='/'
-                               element={<Users users={users} setUserId={setUserId}/>}/>
-                        <Route path='/userInfo'
+                        <Route path='/test-for-roox-rolutions' element={<Users users={users} setUserId={setUserId}/>}/>
+                        <Route path='/test-for-roox-rolutions/userInfo'
                                element={<UserInfo users={users} userId={userId}/>}/>
+                        <Route path='/' element={<Users users={users} setUserId={setUserId}/>}/>
+                        <Route path='/userInfo' element={<UserInfo users={users} userId={userId}/>}/>
                     </Routes>
                 </>
             </div>
