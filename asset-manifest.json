@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/test-for-roox-rolutions/static/css/main.52c3729b.css",
-    "main.js": "/test-for-roox-rolutions/static/js/main.e253bfcd.js",
+    "main.js": "/test-for-roox-rolutions/static/js/main.7a8d9e05.js",
     "static/js/787.c1112931.chunk.js": "/test-for-roox-rolutions/static/js/787.c1112931.chunk.js",
     "static/media/loader.svg": "/test-for-roox-rolutions/static/media/loader.2d23f9fd1718b818f811a735263bd2e5.svg",
     "index.html": "/test-for-roox-rolutions/index.html",
     "main.52c3729b.css.map": "/test-for-roox-rolutions/static/css/main.52c3729b.css.map",
-    "main.e253bfcd.js.map": "/test-for-roox-rolutions/static/js/main.e253bfcd.js.map",
+    "main.7a8d9e05.js.map": "/test-for-roox-rolutions/static/js/main.7a8d9e05.js.map",
     "787.c1112931.chunk.js.map": "/test-for-roox-rolutions/static/js/787.c1112931.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.52c3729b.css",
-    "static/js/main.e253bfcd.js"
+    "static/js/main.7a8d9e05.js"
   ]
 }
